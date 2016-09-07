@@ -1,3 +1,5 @@
+# update kcptun to version 20160906
+#https://github.com/xtaci/kcptun/releases/tag/v20160906
 # kcp-3proxy
 Docker include kcptun-server and 3proxy
 
