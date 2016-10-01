@@ -9,7 +9,7 @@ docker run -t -p 29900:29900/udp cool168/kcp-3proxy
 
 client:
 
-client_windows_amd64.exe -l :12948 -r remoteip:29900 -key test -mtu 1400 -sndwnd 128 -rcvwnd 1024 -mode fast2 -dscp 46
+client_windows_amd64.exe -l :12948 -r remoteip:29900 -key test -crypt salsa20 -nocomp -mtu 1400 -sndwnd 128 -rcvwnd 1024 -mode fast2 -dscp 46
 
 proxy:
 
