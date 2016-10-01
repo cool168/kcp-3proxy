@@ -13,5 +13,5 @@ client_windows_amd64.exe -l :12948 -r remoteip:29900 -key test12345 -crypt salsa
 
 proxy:
 
-http 127.0.0.1:12948
+socks5 127.0.0.1:12948
 
