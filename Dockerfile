@@ -24,7 +24,7 @@ RUN chmod +x /usr/bin/server_linux_amd64
 COPY k3p-server.sh /k3p-server.sh
 RUN chmod +x /k3p-server.sh
 
-EXPOSE 29900/udp
+EXPOSE 39900/udp
 
 # CMD ["/usr/bin/supervisord"]
 ENTRYPOINT ["/k3p-server.sh", "/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
