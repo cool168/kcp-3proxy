@@ -4,7 +4,7 @@
 Docker include kcptun server and 3proxy
 
 
-docker run -d -p 29900:29900/udp -e KEY_PWD="test12345" cool168/kcp-3proxy
+docker run -d -p39900:39900/udp -e KEY_PWD="test12345" cool168/kcp-3proxy
 
 
 client:
