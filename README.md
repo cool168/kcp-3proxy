@@ -1,5 +1,5 @@
-# update kcptun to version 20191127
-https://github.com/xtaci/kcptun/releases/download/v20191127/kcptun-linux-amd64-20191127.tar.gz
+# update kcptun to version 20191219
+https://github.com/xtaci/kcptun/releases/download/v20191219/kcptun-linux-amd64-20191219.tar.gz
 # kcp-3proxy
 Docker include kcptun server and 3proxy
 
